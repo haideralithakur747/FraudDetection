@@ -1,0 +1,44 @@
+FraudDetection/
+│
+├── node_modules/
+│
+├── src/
+│   │
+│   ├── config/
+│   │   └── database.js
+│   │
+│   ├── controllers/
+│   │   ├── auth.controller.js
+│   │   ├── user.controller.js
+│   │   └── transaction.controller.js
+│   │
+│   ├── middleware/
+│   │   ├── auth.middleware.js
+│   │   ├── error.middleware.js
+│   │   └── validation.middleware.js
+│   │
+│   ├── models/
+│   │   ├── user.model.js
+│   │   └── transaction.model.js
+│   │
+│   ├── routes/
+│   │   ├── auth.routes.js
+│   │   ├── user.routes.js
+│   │   └── transaction.routes.js
+│   │
+│   ├── services/
+│   │   ├── auth.service.js
+│   │   ├── user.service.js
+│   │   └── transaction.service.js
+│   │
+│   ├── utils/
+│   │   └── ...
+│   │
+│   ├── app.js
+│   └── server.js
+│
+├── .env
+├── .gitignore
+├── package.json
+├── package-lock.json
+└── README.md
