@@ -1,15 +1,15 @@
 const express = require('express');
 
-const db = require('../db');
 const User = require('./models/user.model');
 
 const app = express();
 
+// Middleware
 app.use(express.json());
 
 // Test route
 app.get('/', (req, res) => {
-    res.json({
+    res.status(200).json({
         message: 'Fraud Detection API is running'
     });
 });
