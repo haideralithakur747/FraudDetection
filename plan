@@ -42,3 +42,67 @@ FraudDetection/
 ├── package.json
 ├── package-lock.json
 └── README.md
+
+
+
+                    FRAUD DETECTION BACKEND MVP
+                              │
+                              ▼
+                    ┌───────────────────┐
+                    │  1. AUTHENTICATION│
+                    │       ✅ DONE     │
+                    └─────────┬─────────┘
+                              │
+                              ▼
+                    ┌───────────────────┐
+                    │ 2. USER MANAGEMENT│
+                    │      ← NEXT       │
+                    └─────────┬─────────┘
+                              │
+                              ▼
+                    ┌───────────────────┐
+                    │  3. TRANSACTIONS  │
+                    │       CRUD        │
+                    └─────────┬─────────┘
+                              │
+                              ▼
+                    ┌───────────────────┐
+                    │  4. FRAUD RULES   │
+                    │   Rule-based MVP   │
+                    └─────────┬─────────┘
+                              │
+                              ▼
+                    ┌───────────────────┐
+                    │ 5. FRAUD DETECTION│
+                    │ Risk + decision   │
+                    └─────────┬─────────┘
+                              │
+                              ▼
+                    ┌───────────────────┐
+                    │    6. ADMIN       │
+                    │ Role-based access │
+                    └─────────┬─────────┘
+                              │
+                              ▼
+                    ┌───────────────────┐
+                    │ 7. VALIDATION &   │
+                    │ ERROR HANDLING    │
+                    └─────────┬─────────┘
+                              │
+                              ▼
+                    ┌───────────────────┐
+                    │ 8. TESTING & API  │
+                    │   DOCUMENTATION   │
+                    └─────────┬─────────┘
+                              │
+                              ▼
+                 ╔══════════════════════════╗
+                 ║       MVP BACKEND        ║
+                 ║         COMPLETE         ║
+                 ╚════════════╤═════════════╝
+                              │
+                              ▼
+                    ┌───────────────────┐
+                    │    9. ML / AI      │
+                    │   Added afterward  │
+                    └───────────────────┘
